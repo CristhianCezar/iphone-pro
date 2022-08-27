@@ -110,12 +110,52 @@ main .hero .title-section-hero h2 {
     min-height: 4rem;
     max-width: 90%;
     margin: auto;
+    margin-top: 0.6rem;
+    color: var(--semiBlack-color);
+
 }
 
 .recommended .recommended-product .products .price p {
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
+    color: var(--black-color);
 }
+
+.recommended .recommended-product .button-back {
+    max-height: 6.8rem;
+    padding: 0 0.6rem;
+    font-size: 10rem;
+    border-radius: 1rem;
+    background-color:  #36363688;
+    color: var(--white-color);
+    text-align: center;
+    margin: auto;
+}
+
+.recommended .recommended-product .button-back:hover {
+    background-color:var(--semiBlack-color);
+    transition: 0.4s;
+}
+
+.recommended .recommended-product .button-next {
+    max-height: 6.8rem;
+    padding: 0 0.6rem;
+    font-size: 10rem;
+    border-radius: 1rem;
+    background-color: #36363688;
+    color: var(--white-color);
+    text-align: center;
+}
+.recommended .recommended-product .button-next:hover {
+    background-color: var(--semiBlack-color);
+    transition: 0.4s;
+}
+
+.recommended .recommended-product .button-back-next {
+    margin: auto;
+}
+
+
 
 
