@@ -1,0 +1,121 @@
+/* BARRA DE NAVEGAÇÃO SUPERIOR */
+
+header{
+    display: flex;
+    background-color: var(--white-color);
+    width: 100%;
+    padding: 1rem 0;
+}
+
+
+header nav {
+    width: 100%;
+}
+header nav .top-list-menu .navbar{
+    width: 100%;
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;  
+}
+
+header nav .top-list-menu ul {
+    display: flex;
+    width: 100%;
+}
+
+header nav .top-list-menu .logo .logo-marca-ss{
+    width: 6rem;
+}
+
+header nav .top-list-menu .links-menu {
+    display: flex;
+    font-size: 5rem;
+}
+
+header nav .top-list-menu .links-menu li:hover {
+    transition: 0.3s;
+    background-color: var( --whiteSmoke-color);
+    border-radius: 1rem;
+    padding: 0 1rem;
+}
+
+header nav .top-list-menu .icons-navbar {
+    width: 3.4rem;
+    margin: 0 0.8rem;
+}
+
+header nav .top-list-menu .icones {
+    display: flex;
+}
+
+header nav .top-list-menu .links-menu li {
+    margin: 1.6rem;
+    color: var(--semiBlack-color);
+}
+
+/* SECTION HERO DA PAGINA, ONDE MOSTRA A IMAGEM PRINCIPAL */
+
+main .hero img {
+    width:100%;
+    opacity: 0.6;
+    position: absolute;
+}
+
+main .hero .title-section-hero h1 {
+    padding-top: 6rem;
+    text-align: center;
+
+}
+
+main .hero .title-section-hero h2 {
+    text-align: center;
+    margin-top: 3rem;
+    height: 79.3rem;
+
+}
+
+/* SECTION RECOMMENDED - PRODUTOS RECOMENDADOS */
+
+
+.recommended .container {
+    margin: auto;
+    margin-bottom: 5rem;
+}
+.recommended .container .title {
+    margin: 5rem 0 0 14rem;
+}
+
+.recommended .container .recommended-product {
+    display: flex;
+    justify-content: center;
+}
+
+.recommended .container .recommended-product .products {
+    background-color: var(--white-color);
+    width: 23rem;
+    height: 40rem;
+    border: 1px solid var(--semiBlack-color);
+    border-radius: 1.6rem;
+    margin: 1rem 1.2rem 0 1.2rem
+}
+
+.recommended .recommended-product .products .img-default img {
+    max-width: 22.8rem;
+    border-radius: 1.6rem 1.6rem 0 0;
+} 
+
+.recommended .recommended-product .products .title-img p{
+    font-size: 1.6rem;
+    text-align: center;
+    min-height: 4rem;
+    max-width: 90%;
+    margin: auto;
+}
+
+.recommended .recommended-product .products .price p {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
