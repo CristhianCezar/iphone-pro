@@ -159,3 +159,69 @@ main .hero .title-section-hero h2 {
 
 
 
+
+
+/* FOOTER  */
+footer {
+    width: 100%;
+    background-color: var(--semiBlack-color);
+    color: var(--white-color);
+
+}
+footer .information {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4rem;
+}
+
+footer .information p {
+    font-size: 1.6rem;
+    margin-top: 0.8rem;
+    color: var(--white-color);
+}
+
+footer .information p:hover {
+    color: var(--slateBlue-color);
+    transition: 0.3s;
+}
+
+footer .all-sociais {
+    margin-top: 4rem;
+    padding: 1.2rem 0;
+    background-color: var(--slateBlue-color);
+}
+
+footer .social-network {
+    margin-top: 4rem;
+    margin: auto;
+    width: max-content;
+}
+
+footer .social-network .sociais-icons img {
+    width: 3rem;
+    margin: 1rem 2rem 0 0;
+}
+
+footer .social-network .sociais-icons {
+    width: max-content;
+}
+
+footer .social-network .sociais-icons #instagram {
+    border-radius: 8px;
+}
+
+footer .social-network .sociais-icons #facebook {
+    border-radius: 5px;
+}
+
+footer .company-information {
+    text-align: center;
+    font-size:2.4rem;
+    margin-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+footer .company-information p {
+    margin-top: 1.6rem;
+}
+

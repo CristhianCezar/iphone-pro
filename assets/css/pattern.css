@@ -35,3 +35,7 @@ h2 {
     font-size: 4rem;
     color: var(--semiBlack-color);
 }
+
+h4 {
+    font-size: 2rem;
+}
