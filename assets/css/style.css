@@ -81,13 +81,14 @@ main .hero .title-section-hero h2 {
     margin: auto;
     margin-bottom: 5rem;
 }
-.recommended .container .title {
-    margin: 5rem 0 0 14rem;
-}
 
 .recommended .container .recommended-product {
     display: flex;
     justify-content: center;
+}
+
+.recommended .container .recommended-product .secund {
+    display: none;
 }
 
 .recommended .container .recommended-product .products {
@@ -100,8 +101,8 @@ main .hero .title-section-hero h2 {
 }
 
 .recommended .recommended-product .products .img-default img {
-    max-width: 22.8rem;
     border-radius: 1.6rem 1.6rem 0 0;
+    width: 100%;
 } 
 
 .recommended .recommended-product .products .title-img p{
@@ -112,8 +113,9 @@ main .hero .title-section-hero h2 {
     margin: auto;
     margin-top: 0.6rem;
     color: var(--semiBlack-color);
-
 }
+
+
 
 .recommended .recommended-product .products .price p {
     font-size: 2rem;
@@ -156,6 +158,37 @@ main .hero .title-section-hero h2 {
     margin: auto;
 }
 
+/* CATEGORIAS DO CORPO DA PAGINA*/
+
+
+.section-category .container .all-categorys{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    
+}
+section .container .categorys  {
+    background-color: var(--slateBlue-color);
+    width: 16rem;
+    height: 6rem;
+    margin: auto;
+    margin: 1rem 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+section .container .categorys:hover {
+    background-color: rgba(105, 90, 205, 0.423);
+}
+
+
+
+
+
 
 
 
@@ -166,8 +199,8 @@ footer {
     width: 100%;
     background-color: var(--semiBlack-color);
     color: var(--white-color);
-
 }
+
 footer .information {
     display: flex;
     justify-content: space-around;
@@ -224,4 +257,5 @@ footer .company-information {
 footer .company-information p {
     margin-top: 1.6rem;
 }
+
 
