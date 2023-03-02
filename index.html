@@ -4,371 +4,295 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/pattern.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="shortcut icon" href="assets/img/logo-ss - Copia.PNG" type="image/x-icon">
+    <meta name="description" content="Loja online de roupas estilo streetwear. Confira nossas coleções">
+    <link rel="stylesheet" href="css/patterns.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/Camisetas/IconAppleTransparent.webp" type="image/x-icon">
     <title>Street Style</title>
 </head>
-<body>
-    
-    <header>
-        <nav>
-            <div class="top-list-menu">
-                <ul>
-                    <div class="navbar">
-                        <div class="logo">
-                            <a href="#logo"><li><img src="assets/img/logo-ss - Copia.PNG" alt="Logo marca da empresa street style, siglas SS na cor branca e o fundo preto" class="logo-marca-ss"></li></a>
-                        </div>
+<body id="body">
+    <header id="logoStreetStyle">
+        <a href="#sliders">
+            <img src="img/Camisetas/IconAppleTransparent.webp" alt="Logomarca da Street Style" class="logomarcaStreetStyle">
+        </a>
 
-                        <div class="links-menu">
-                            <a href="#camisas"><li>Camisetas</li></a>
-
-                            <a href="#intimos"><li>Intimos</li></a>
-
-                            <a href="#calcas"><li>Calças</li></a>
-
-                            <a href="#moletons"><li>Moletons</li></a>
-
-                            <a href="#calcados"><li>Calçados</li></a>
-
-                            <a href="#acessorios"><li>Acessórios</li></a>
-
-                            <a href="#cintos"><li>Cintos</li></a>
-
-                            <a href="#mochilas"><li>Mochilas</li></a>
-
-                        </div>
-                            <div class="icones">
-                            <a href="#shopping-cart"><li><img src="assets/img/Ícone-Carrinho-de-Compras.png" alt="" class="icons-navbar"></li></a>
-                            <a href="#"><li><img src="assets/img/icone-para-usuario.png" alt="" class="icons-navbar"></li></a>
-                        </div>
-                    </div>
-                </ul>
-            </div>
-        </nav>
+        <ul class="icons">
+            <li>
+                <a href="#">
+                    <img src="img/Icons/headphoneIcon.svg" alt="icone de um fone de ouvido na cor preta">
+                </a>
+            </li>
+            <li>
+                <div id="shoppingCartIcon" class="shoppingCartIcon" onclick="showShoppingCart()">
+                    <img  src="img/Icons/shoppingTrolleyIcon.svg" alt="icone de um carrinho de compras na cor preta">
+                    <span id="countItems" class="desabled"></span>
+                </div>
+            </li>
+        </ul>
     </header>
 
-    <main class="container">
-        <section class="hero">
-            <div class="container">
-                 <img src="assets/img/Papatinho-e-L7nnon.webp" alt="">
-
-                <div class="title-section-hero">
-                    <h1>Street style</h1>
-                    <h2>Te veste como voce<br> nunca imaginou</h2>
-                </div>
-            </div>
-         </section>
-
-         <section class="recommended">
-            <div class="container">
-                <div class="title">
-                    <h2>Recomendados</h2>
-                </div>
-
-                <div class="recommended-product">
-                    <a href="#button-back" class="button-back-next">
-                        <div class="button-back">
-                            <p>&lt</p>
-                        </div>
-                    </a>
-
-                    <a href="#redommended-1">
-                        <div class="products first">
-                            <div class="img-default">
-                                <img src="assets/img/roupas-masculinas/camisa-masculina-verde-manga-comprida.webp" alt="">
-                            </div>
-
-                            <div class="title-img">
-                                <p>Camisa Masculina Manga Cumprida</p>
-                            </div>
-
-                            <div class="price">
-                                <p>R$ 69,99</p>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="#redommended-2">
-                        <div class="products first">
-                            <div class="img-default">
-                                <img src="assets/img/roupas-masculinas/jaqueta-masculina-azul.webp" alt="">
-                            </div>
-
-                            <div class="title-img">
-                                <p>Casaco Moletom Azul Manga Cumprida</p>
-                            </div>
-
-                            <div class="price">
-                                <p>R$ 69,99</p>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="#redommended-3">
-                        <div class="products first">
-                            <div class="img-default">
-                                <img src="assets/img/roupas-masculinas/sueter-masculino.webp" alt="">
-                            </div>
-
-                            <div class="title-img">
-                                <p>Camisa Masculina Manga cumprida</p>
-                            </div>
-
-                            <div class="price">
-                                <p>R$ 69,99</p>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="#recommended-4">
-                        <div class="products first">
-                            <div class="img-default">
-                                <img src="assets/img/roupas-masculinas/t-shirt-marron.webp" alt="">
-                            </div>
-
-                            <div class="title-img">
-                                <p>T-shirt Masculina Marrom New York</p>
-                            </div>
-
-                            <div class="price">
-                                <p>R$ 69,99</p>
-                            </div>
-                        </div>
-                    </a>
-
-
-                    <a href="#recommended-5">
-                        <div class="products first">
-                            <div class="img-default">
-                                <img src="assets/img/roupas-masculinas/t-shirt-preta.webp" alt="">
-
-                                <div class="title-img">
-                                    <p>T-shirt Masculina Preta Detalhes Brancos</p>
-                                </div>
-
-                                <div class="price">
-                                    <p>R$ 69,99</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="#redommended-1 ">
-                        <div class="products secund">
-                            <div class="img-default">
-                                <img src="assets/img/roupas-masculinas/camisa-masculina-verde-manga-comprida.webp" alt="">
-                            </div>
-
-                            <div class="title-img">
-                                <p>Camisa Masculina Manga Cumprida</p>
-                            </div>
-
-                            <div class="price">
-                                <p>R$ 69,99</p>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="#redommended-2 ">
-                        <div class="products secund">
-                            <div class="img-default">
-                                <img src="assets/img/roupas-masculinas/jaqueta-masculina-azul.webp" alt="">
-                            </div>
-
-                            <div class="title-img">
-                                <p>Casaco Moletom Azul Manga Cumprida</p>
-                            </div>
-
-                            <div class="price">
-                                <p>R$ 69,99</p>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="#redommended-3">
-                        <div class="products secund">
-                            <div class="img-default">
-                                <img src="assets/img/roupas-masculinas/sueter-masculino.webp" alt="">
-                            </div>
-
-                            <div class="title-img">
-                                <p>Camisa Masculina Manga cumprida</p>
-                            </div>
-
-                            <div class="price">
-                                <p>R$ 69,99</p>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="#recommended-4">
-                        <div class="products secund">
-                            <div class="img-default">
-                                <img src="assets/img/roupas-masculinas/t-shirt-marron.webp" alt="">
-                            </div>
-
-                            <div class="title-img">
-                                <p>T-shirt Masculina Marrom New York</p>
-                            </div>
-
-                            <div class="price">
-                                <p>R$ 69,99</p>
-                            </div>
-                        </div>
-                    </a>
-
-
-                    <a href="#recommended-5 ">
-                        <div class="products secund">
-                            <div class="img-default">
-                                <img src="assets/img/roupas-masculinas/t-shirt-preta.webp" alt="">
-
-                                <div class="title-img">
-                                    <p>T-shirt Masculina Preta Detalhes Brancos</p>
-                                </div>
-
-                                <div class="price">
-                                    <p>R$ 69,99</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    
-                    <a href="#button-next" class="button-back-next">
-                        <div class="button-next">
-                            <p>&gt</p>
-                        </div>
-                    </a>
-
-                </div>
-            </div>
-         </section>
-
-         <section class="section-category">
-            <div class="container">
-                <div class="title">
-                    <h2>Encontre por categoria</h2>
-                </div>
-                <div class="all-categorys">
-                    <a href="#">
-                        <div class="categorys">
-                            <h3>Camisetas</h3>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="categorys">
-                            <h3>Intimos</h3>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="categorys">
-                            <h3>Calças</h3>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="categorys">
-                            <h3>Moletons</h3>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="categorys">
-                            <h3>Calçados</h3>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="categorys">
-                            <h3>Relógios</h3>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="categorys">
-                            <h3>Cintos</h3>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="categorys">
-                            <h3>Mochilas</h3>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="categorys">
-                            <h3>Chápeus</h3>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="categorys">
-                            <h3>Colares</h3>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="categorys">
-                            <h3>Over-Size</h3>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="categorys">
-                            <h3>Anéis</h3>
-                        </div>
-                    </a>
-            </div>
-            </div>
-         </section>
-
+    <main id="sliders">
+            <img src="img/Camisetas/responsive/IconApplesmall.jpg" alt="" class="selected slide">
+            <img src="img/Icons/iPhone13.jpg" alt="" class="slide">
+            <img src="img/Icons/produtosApple.jpg" alt="" class="slide">
     </main>
 
-    <footer>
-        <div class="information">
-            <div class="about">
-                <h4>Conheça-nos</h4>
-                <a href="#"><p>Sobre a SS</p></a>
-                <a href="#"><p>Parceiros</p></a>
-                <a href="#"><p>Carreiras</p></a>
-                <a href="#"><p>Equipe</p></a>
-                <a href="#"><p>Contatos</p></a>
-            </div>
-
-            <div class="help">
-                <h4>Ajuda</h4>
-                <a href="#"><p>Nossa politica de frete</p></a>
-                <a href="#"><p>Rastreio de pedido</p></a>
-                <a href="#"><p>Dúvidas Frequentes</p></a>
-                <a href="#"><p>politica de devolução</p></a>
-                <a href="#"><p>Informações adicionais</p></a>
-            </div>
-
-            <div class="payment">
-                <h4>Pagamentos</h4>
-                <a href="#"><p>Cartão de crédito</p></a>
-                <a href="#"><p>Boleto</p></a>
-                <a href="#"><p>Cartão de débito</p></a>
-                <a href="#"><p>Pix</p></a>
-                <a href="#"><p>Cripto</p></a>
-            </div>
-        </div>
-
-        <div class="all-sociais">
-            <div class="social-network">
-                <div class="title">
-                    <h4>Nossas redes</h4>
+    <section class="hero">
+        <h1>Recomendados</h1>
+        <div class="container" id="containerHero">
+            <div class="card">
+                <div class="images">
+                    <img src="img/Camisetas/Iphone11Branco.png" alt="">
                 </div>
+                <div class="description">
+                    <h2 class="title" id="title">iPhone 11 128Gb</h2>
+                    <p class="price">R$ 2.500,00</p>
+                    <button class="buy" id="buy">Comprar</button>
+                    <button class="addShoppingcart" id="addRecommended01" onclick="addProductCart()">
+                         <img src="img/Icons/shoppingTrolleyIcon.svg" alt="icone de um carrinho de compras na cor preta">
+                         Adicionar ao Carrinho
+                    </button>
+                </div>
+            </div>
 
-                <div class="sociais-icons">
-                    <a href="#" class="social"><img src="assets/img/logo-redes-sociais/instagram.png" alt="" id="instagram"></a>
+            <div class="card">
+                <div class="images">
+                    <img src="img/Camisetas/Iphone12ProMax.jpg" alt="">
+                </div>
+                <div class="description">
+                    <h2 class="title">iPhone 12 Pro Max 128Gb</h2>
+                    <p class="price">R$ 3.500,00</p>
+                    <button class="buy" id="buy">Comprar</button>
+                    <button class="addShoppingcart" id="addRecommended02" onclick="addProductCart()">
+                         <img src="img/Icons/shoppingTrolleyIcon.svg" alt="icone de um carrinho de compras na cor preta">
+                         Adicionar ao Carrinho
+                    </button>
+                </div>
+            </div>
 
-                    <a href="#" class="social"><img src="assets/img/logo-redes-sociais/facebook.png" alt="" id="facebook"></a>
+            <div class="card">
+                <div class="images">
+                    <img src="img/Camisetas/Iphone13ProMax.png" alt="" class="secund">
+                </div>
+                <div class="description">
+                    <h2 class="title">iPhone 13 Pro Max 128Gb</h2>
+                    <p class="price">R$ 4.000,00</p>
+                    <button class="buy" id="buy">Comprar</button>
+                    <button class="addShoppingcart" id="addRecommended03">
+                         <img src="img/Icons/shoppingTrolleyIcon.svg" alt="icone de um carrinho de compras na cor preta">
+                         Adicionar ao Carrinho
+                    </button>
+                </div>
+            </div>
 
-                    <a href="#" class="social"><img src="assets/img/logo-redes-sociais/whatsapp.png" alt="" id="whatsapp"></a>
-                </div>                      
+            <div class="card">
+                <div class="images">
+                    <img src="img/Camisetas/Iphone14ProMax.jpeg" alt="">
+                </div>
+                <div class="description">
+                    <h2 class="title">iPhone 14 Pro Max</h2>
+                    <p class="price">R$ 9.000,00</p>
+                    <button class="buy" id="buy">Comprar</button>
+                    <button class="addShoppingcart" id="addRecommended04">
+                         <img src="img/Icons/shoppingTrolleyIcon.svg" alt="icone de um carrinho de compras na cor preta">
+                         Adicionar ao Carrinho
+                    </button>
+                </div>
             </div>
         </div>
+    </section>
 
-        <div class="company-information">
-            <p>@2022 street style varejo brasil Ltda. | CNPJ 15.566.039/0001-05</p>
-            <p>Rua marques de herval, 385 - Belém-PA CEP: 00000-000</p>
+    <section class="hero categorys">
+        <h2 class="tShirts">Todos os produtos</h2>
+        <div class="container" id="containerHero">
+            <div class="card">
+                <div class="images">
+                    <img src="img/Camisetas/Iphone8PlusRosa.webp" alt="">
+                </div>
+                <div class="description">
+                    <h2 class="title">iPhone 8 Plus 64Gb</h2>
+                    <p class="price">R$ 1.800,00</p>
+                    <button class="buy" id="buy">Comprar</button>
+                    <button class="addShoppingcart" id="addShoppingCart">
+                         <img src="img/Icons/shoppingTrolleyIcon.svg" alt="icone de um carrinho de compras na cor preta">
+                         Adicionar ao Carrinho
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="images">
+                    <img src="img/Camisetas/IphoneXrBranco.jpg" alt="">
+                </div>
+                <div class="description">
+                    <h2 class="title">Iphone Xr 128Gb</h2>
+                    <p class="price">R$ 2.300,00</p>
+                    <button class="buy" id="buy">Comprar</button>
+                    <button class="addShoppingcart" id="addShoppingCart">
+                         <img src="img/Icons/shoppingTrolleyIcon.svg" alt="icone de um carrinho de compras na cor preta">
+                         Adicionar ao Carrinho
+                    </button>              
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="images">
+                    <img src="img/Camisetas/Iphones11.webp" alt="">
+                </div>
+                <div class="description">
+                    <h2 class="title">Iphone 11 128Gb</h2>
+                    <p class="price">R$ 2.500,00</p>
+                    <button class="buy" id="buy">Comprar</button>
+                    <button class="addShoppingcart" id="addShoppingCart">
+                         <img src="img/Icons/shoppingTrolleyIcon.svg" alt="icone de um carrinho de compras na cor preta">
+                         Adicionar ao Carrinho
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="images">
+                    <img src="img/Camisetas/Iphone12Preto.jpg" alt="">
+                </div>
+                <div class="description">
+                    <h2 class="title">Iphone 12 256Gb</h2>
+                    <p class="price">R$ 3.600,00</p>
+                    <button class="buy" id="buy">Comprar</button>
+                    <button class="addShoppingcart" id="addShoppingCart">
+                         <img src="img/Icons/shoppingTrolleyIcon.svg" alt="icone de um carrinho de compras na cor preta">
+                         Adicionar ao Carrinho
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="images">
+                    <img src="img/Camisetas/Iphone14Azul.jpg" alt="">
+                </div>
+                <div class="description">
+                    <h2 class="title">Iphone 14 256Gb</h2>
+                    <p class="price">R$ 6.500,00</p>
+                    <button class="buy" id="buy">Comprar</button>
+                    <button class="addShoppingcart" id="addShoppingCart">
+                         <img src="img/Icons/shoppingTrolleyIcon.svg" alt="icone de um carrinho de compras na cor preta">
+                         Adicionar ao Carrinho
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="images">
+                    <img src="img/Camisetas/Iphone14Pro.jpg" alt="">
+                </div>
+                <div class="description">
+                    <h2 class="title">iphone 14 Pro 128Gb</h2>
+                    <p class="price">R$ 5.900,00</p>
+                    <button class="buy" id="buy">Comprar</button>
+                    <button class="addShoppingcart" id="addShoppingCart">
+                         <img src="img/Icons/shoppingTrolleyIcon.svg" alt="icone de um carrinho de compras na cor preta">
+                         Adicionar ao Carrinho
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="images">
+                    <img src="img/Camisetas/Iphone14ProMax.jpeg" alt="">
+                </div>
+                <div class="description">
+                    <h2 class="title">iPhone 14 Pro Max 128Gb</h2>
+                    <p class="price">R$ 8.000,00</p>
+                    <button class="buy" id="buy">Comprar</button>
+                    <button class="addShoppingcart" id="addShoppingCart">
+                         <img src="img/Icons/shoppingTrolleyIcon.svg" alt="icone de um carrinho de compras na cor preta">
+                         Adicionar ao Carrinho
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="images">
+                    <img src="img/Camisetas/Iphone13ProMax.png" alt="">
+                </div>
+                <div class="description">
+                    <h2 class="title">iPhone 13 Pro Max 256Gb</h2>
+                    <p class="price">R$ 6.000,00</p>
+                    <button class="buy" id="buy">Comprar</button>
+                    <button class="addShoppingcart" id="addShoppingCart">
+                         <img src="img/Icons/shoppingTrolleyIcon.svg" alt="icone de um carrinho de compras na cor preta">
+                         Adicionar ao Carrinho
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="contact">
+            <ul>
+                <li>
+                    <a href="https://api.whatsapp.com/message/MCI3YIZT3OVLO1?autoload=1&app_absent=0" target="_blank">
+                        <img src="img/Icons/IconWhatsapp.png" alt="icone com a logomarca do whatsapp" class="icon-footer whatsapp">
+                        <p>
+                            (91) 98419-9193
+                        </p>
+                    </a> 
+                </li>
+                <li>
+                    <a href="https://instagram.com/ss_street_style?igshid=NDc0ODY0MjQ=" target="_blank">
+                        <img src="img/Icons/instagram-icons.png" alt="icone com a logomarca do instagram" class="icon-footer instagram">
+                        <p>
+                            iphone_pro
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:lojastreetstyle.ss@gmail.com">
+                        <img src="img/Icons/email-icons.png" alt="Icone que representa o email" class="icon-footer email">
+                        <p>
+                            iphone.pro@gmail.com
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="informations">
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="img/Icons/info-icons.png" alt="" class="icon-footer">
+                            <p>Sobre</p>
+                        </img>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/Icons/payment-method-icons.png" alt="" class="icon-footer">
+                            <p>Metodo de pagamento</p>
+                        </img>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/Icons/service-icons.png" alt="" class="icon-footer">
+                            <p>Como rastrear o Pedido</p>
+                        </img>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="line"></div>
+        <div class="about">
+            <p>
+                Os melhores e mais recentes prosutos apple você só encontra aqui.
+                Nós da iPhone Pro entregamos a qualidade que você merece, e o Preço justo que você precisa! 
+            </p>
         </div>
     </footer>
 
+    <script src="script/slidePattern.js" type="module"></script>
+    <script src="script/shoppingCart.js"></script>
 </body>
 </html>

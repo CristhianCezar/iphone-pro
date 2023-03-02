@@ -1,0 +1,33 @@
+:root{
+    --slateBlue-color: #836FFF;
+    --black-color: #000;
+    --semiBlack-color: #000000d5;
+    --white-color: rgb(255, 254, 254);
+    --silver-color: #8f8c8c52;
+    --red-color: #DC143C;
+    --green-color: #00d100d5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
